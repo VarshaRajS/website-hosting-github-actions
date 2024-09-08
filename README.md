@@ -19,7 +19,7 @@ This setup ensures a robust, scalable, and cost-effective solution for hosting a
 
 **Usage:**
 
-1. Create an s3 bucket, under properties tab enable static website hosting
+1. Create an s3 bucket, under properties tab enable static website hosting.
 2. Under permissions tab, set suitable bucket policy:
    {
     "Version": "2012-10-17",
@@ -33,5 +33,13 @@ This setup ensures a robust, scalable, and cost-effective solution for hosting a
         }
     ] 
    }
-3. Create IAM user and provide required access, create security credentials
-4. Add the AWS_ACCESS_KEY and AWS_SECRET_ACCESS_KEY in the 
+3. Create IAM user and provide required access, create security credentials.
+4. Add the AWS_ACCESS_KEY and AWS_SECRET_ACCESS_KEY in the secrets and variables in settings.
+5. Mention proper bucket name in github-actions main.yml file.
+6. Ensure everything is running properly.
+   ![PXL_20240908_170359837~2](https://github.com/user-attachments/assets/5c971118-f4ca-45c6-9390-035e79e871c2)
+   
+   ![PXL_20240908_181602416~2](https://github.com/user-attachments/assets/db485ab7-2c96-4447-acbe-5834526f6a99)
+7. Find the link of the website in the s3 bucket's properties tab.
+
+
