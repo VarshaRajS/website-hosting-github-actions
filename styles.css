@@ -1,0 +1,77 @@
+img{
+    width:100%;
+    height: auto;
+    max-height: 600px;
+}
+
+.navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.navbar-brand{
+    font-family: cursive;
+    
+}
+
+.sec2{
+    padding-top: 0.5%;
+    background-color: white;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.coupons{
+    background-color: rgb(250, 211, 218);
+    padding-top: 0.5%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gc{
+    font-size: 300%;
+}
+
+.gcc{
+    font-size: 100%;
+}
+
+.btn{
+    margin: 3.2%;
+}
+
+i{
+    margin-top: 4%;
+}
+
+.row{
+    color: white;
+    line-height: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+#sec3{
+    background-color:black ;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+}
+
+.final-section{
+    background-color: black;
+}
+
+h4{
+    padding-top: 5%;
+    padding-bottom: 3.5%;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-brand{
+        --bs-navbar-brand-font-size: 1.5rem;
+    }
+  }
